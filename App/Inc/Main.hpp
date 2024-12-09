@@ -32,7 +32,7 @@
 /********************************************************
 * @brief  readCSV
 * @param  dashboardController Pointer to DashboardController 
-                              object that receive updated data
+*                             object that receive updated data
 * @return None 
 ********************************************************/
 void readCSV(DashboardController* dashboardController);
@@ -52,7 +52,7 @@ void keyboardInputHandler(DashboardController* dashboardController, SpeedCalcula
 /********************************************************
 * @brief  display 
 * @param  dashboardController Pointer to DashboardController 
-                              object to display updated data
+*                             object to display updated data
 * @return None
 ********************************************************/
 void display(DashboardController* dashboardController);
@@ -60,7 +60,7 @@ void display(DashboardController* dashboardController);
 /********************************************************
 * @brief  saveToCSV
 * @param  dashboardController Pointer to DashboardController 
-                              object to read and save data
+*                             object to read and save data
 * @return None
 ********************************************************/
 void saveToCSV(DashboardController* dashboardController);
