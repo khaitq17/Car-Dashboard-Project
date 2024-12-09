@@ -15,31 +15,7 @@ Project "Car Dashboard" là một hệ thống mô phỏng giao diện điều k
 - Bảo vệ Dữ Liệu (Mutex): Sử dụng cơ chế khóa (mutex) để đảm bảo dữ liệu không bị xung đột khi nhiều thread truy cập.
 
 ## Cấu trúc thư mục
-
-Car_Dashboard_Project/
-├── App/
-│   ├── Inc/
-│   │   ├── Main.hpp                    // Khai báo các file và các hàm cần thiết cho hệ thống 
-│   │   ├── DashboardController.hpp     // Khai báo class và method liên quan đến bảng điều khiển
-│   │   ├── DisplayManager.hpp          // Khai báo class và method liên quan đến hiển thị dữ liệu 
-│   │   ├── SpeedCalculator.hpp         // Khai báo class và method liên quan đến tính toán tốc độ
-│   │   ├── BatteryManager.hpp          // Khai báo class và method liên quan đến quản lý pin
-│   │   ├── DriveModeManager.hpp        // Khai báo class và method liên quan đến quản lý chế độ lái
-│   │   └── SafetyManager.hpp           // Khai báo class và method liên quan đến quản lý an toàn
-│   │
-│   └── Src/
-│       ├── Main.cpp                    // Hàm main để khởi động ứng dụng và quản lý giao diện người dùng
-│       ├── DashboardController.cpp     // Thực thi các chức năng liên quan đến bảng điều khiển
-│       ├── DisplayManager.cpp          // Thực thi các chức năng liên quan đến hiển thị dữ liệu
-│       ├── SpeedCalculator.cpp         // Thực thi các chức năng liên quan đến tính toán tốc độ
-│       ├── BatteryManager.cpp          // Thực thi các chức năng liên quan đến quản lý pin
-│       ├── DriveModeManager.cpp        // Thực thi các chức năng liên quan đến quản lý chế độ lái
-│       └── SafetyManager.cpp           // Thực thi các chức năng liên quan đến quản lý an toàn
-│   
-├── bin/                                // Thư mục chứa các file .o và file .exe sau khi chạy chương trình
-│   
-└── Data/
-    └── Database.csv                    // File chứa các thông tin và dữ liệu hệ thống
+![image](https://github.com/user-attachments/assets/1f2249c4-8568-44e5-9073-58bd2a5a05f1)
 
 ## Chi tiết các thành phần
 ### Main
