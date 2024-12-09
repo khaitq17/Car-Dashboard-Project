@@ -63,7 +63,7 @@ int main() {
 * @details  This function reads data from CSV file and 
 *           update data to DashboardController.
 * @param    dashboardController Pointer to DashboardController 
-                                object that receive updated data
+*                               object that receive updated data
 * @return   None 
 ********************************************************/
 void readCSV(DashboardController* dashboardController) {
@@ -336,7 +336,7 @@ void keyboardInputHandler(DashboardController* dashboardController, SpeedCalcula
 * @details  This function calls DashboardController update
 *           data methods to display data from DisplayManager. 
 * @param    dashboardController Pointer to DashboardController 
-                                object to display updated data
+*                               object to display updated data
 * @return   None
 ********************************************************/
 void display(DashboardController *dashboardController) {
@@ -359,7 +359,7 @@ void display(DashboardController *dashboardController) {
 * @details  This functions save data into CSV file, include
 *           drive mode, speed, battery level,...
 * @param    dashboardController Pointer to DashboardController 
-                                object to read and save data
+*                               object to read and save data
 * @return   None
 ********************************************************/
 void saveToCSV(DashboardController* dashboardController) {
